@@ -1,33 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 *{
-    font-family: "Helvetica";
+    font-family: "Roboto";
 }
-#body{background-color: white;}
+body{margin: 0;}
 #header{
     background-color: #1f2937;
 }
     #banner{
         display: flex; 
         justify-content: space-between;
+        align-items: center;
         padding: 10px 100px;
     }
         #banner *{display: inline; color:#f9faf8;}
-        #heroTag{font-size: 1.5rem;}
+        #heroTag{font-size: 1.5rem; font-weight: 900; margin: 1rem 0px;}
             #links h5{
                 display: inline; 
                 font-size: 1.25rem;
                 color: #e5e7eb;
+                margin: 0px 1rem;
             }
     #headstone{
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
+        padding: 6rem 0px; 
     }
         #intro{
             width: 400px;
         }
-            #hook{font-size: 3rem; color: #f9faf8;}
-            #quick-desc{font-size: 0.75rem; color: #e5e7eb; font-weight: lighter;}
-            #apply-button{font-size: 1.25rem; color: #f9faf8; background-color: #3882f6; border: none; border-radius: 4px; padding: 5px 25px;}
+            #hook{font-size: 3rem; color: #f9faf8; margin: 1rem 0px;}
+            #quick-desc{font-size: 1.125rem; color: #e5e7eb; font-weight: lighter; margin: 1rem 0px;}
+            #apply-button{font-size: 1.25rem; color: #f9faf8; background-color: #3882f6; border: none; border-radius: 5px; padding: 5px 25px;}
         #face-image{display: inline; width: 500px;}
 
 
