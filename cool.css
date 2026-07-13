@@ -1,0 +1,67 @@
+*{
+    font-family: "Helvetica";
+}
+#body{background-color: white;}
+#header{
+    background-color: #1f2937;
+}
+    #banner{
+        display: flex; 
+        justify-content: space-between;
+        padding: 10px 100px;
+    }
+        #banner *{display: inline; color:#f9faf8;}
+        #heroTag{font-size: 1.5rem;}
+            #links h5{
+                display: inline; 
+                font-size: 1.25rem;
+                color: #e5e7eb;
+            }
+    #headstone{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+        #intro{
+            width: 400px;
+        }
+            #hook{font-size: 3rem; color: #f9faf8;}
+            #quick-desc{font-size: 0.75rem; color: #e5e7eb; font-weight: lighter;}
+            #apply-button{font-size: 1.25rem; color: #f9faf8; background-color: #3882f6; border: none; border-radius: 4px; padding: 5px 25px;}
+        #face-image{display: inline; width: 500px;}
+
+
+    #title{font-size: 2rem; color: #1f2937; text-align: center;}
+    #istics{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: flex-start;
+    }
+        #istics div img{
+            width: 200px;
+            border: 2px inset red;
+            border-radius: 2px;
+        }
+        #istics div h6{font-size: 1.5rem; color: #1f2937; font-weight: lighter; text-align: center;}
+
+#quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+        #quote p{width: 700px; font-size: 1.15rem; font-weight: 300;}
+        #quote h3{width: 700px; font-size: 0.75em; text-align: end;}
+        #quote h3 em{font-weight: lighter;}
+
+#action{
+    background-color: #3882f6;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+    #action #what h2{color: #f9faf8; font-size: 1.25rem;}
+    #action #what h4{color: #f9faf8; font-size: 0.75rem; font-weight: 300;}
+    #action #how{color: #f9faf8; background-color: #3882f6; border: 2px solid #f9faf8; border-radius: 4px;}
