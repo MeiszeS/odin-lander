@@ -44,28 +44,31 @@ body{margin: 0;}
     }
         #istics div img{
             width: 200px;
-            border: 2px inset red;
-            border-radius: 2px;
+            height: 200px;
+            border: 3px solid #3882f6;
+            border-radius: 12px;
         }
         #istics div h6{font-size: 1.5rem; color: #1f2937; font-weight: lighter; text-align: center;}
 
 #quote{
     background-color: #e5e7eb;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0px;
 }
-        #quote p{width: 700px; font-size: 1.15rem; font-weight: 300;}
-        #quote h3{width: 700px; font-size: 0.75em; text-align: end;}
-        #quote h3 em{font-weight: lighter;}
+        #quote p{width: 900px; font-size: 2.25em; font-weight: 300; line-height: 1.25em; color: #1f2937}
+        #quote h3{width: 900px; font-size: 1.75em; text-align: end;}
 
 #action{
     background-color: #3882f6;
-    width: 600px;
-    border-radius: 10px;
+    width: 900px;
+    padding: 25px 75px;
+    margin: 100px auto;
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
 }
     #action #what h2{color: #f9faf8; font-size: 1.25rem;}
     #action #what h4{color: #f9faf8; font-size: 0.75rem; font-weight: 300;}
-    #action #how{color: #f9faf8; background-color: #3882f6; border: 2px solid #f9faf8; border-radius: 4px;}
+    #action #how{color: #f9faf8; background-color: #3882f6; border: 2px solid #f9faf8; border-radius: 4px; margin: 10px 50px; width: 175px;}
